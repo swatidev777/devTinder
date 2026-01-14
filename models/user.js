@@ -19,9 +19,9 @@ gender:{
 }
 
 )
-const UserModel=mongoose.model("User",userSchemas)
+const UserModel=mongoose.model("users",userSchemas)
 module.exports=UserModel
 
 //OR
 
-//module.exports=mongoose.Model("user",userSchemas)
+//module.exports=mongoose.model("user",userSchemas)
